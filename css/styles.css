@@ -21,6 +21,8 @@ ol {
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Оформление portfolio.html */
@@ -29,10 +31,13 @@ body {
 .logo {
   color: var(--title-text-color);
   text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 26px;
 }
 
 .logo-span {
   color: var(--accent-color);
+  font-size: 26px;
 }
 
 .logo:hover,
@@ -42,6 +47,9 @@ body {
 
 .header {
   background-color: var(--logo-bg-color);
+  font-size: 14px;
+  font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header .header-studio {
@@ -90,16 +98,19 @@ body {
 
 .hero {
   background-color: var(--primary-bg-color);
+  font-size: 16px;
 }
 
 .btn-all {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-size: 16px;
 }
 
 .btn {
   color: var(--title-text-color);
   background-color: var(--accent-bg-color);
+  font-size: 16px;
 }
 
 .btn:hover,
@@ -110,6 +121,7 @@ body {
 
 .hero .hero-h {
   color: var(--title-text-color);
+  font-size: 18px;
 }
 
 /*  Конец оформления main */
@@ -132,10 +144,12 @@ body {
 
 .add {
   color: var(--primary-white-color);
+  font: size 14px;
 }
 
 .mail {
   color: var(--footer-text-color);
+  font: size 14px;
 }
 
 .mail:hover,
@@ -145,6 +159,7 @@ body {
 
 .tel {
   color: var(--footer-text-color);
+  font: size 14px;
 }
 
 .tel:hover,
@@ -195,11 +210,13 @@ body {
 
 .section-h {
   color: var(--primary-white-color);
+  font-size: 44px;
 }
 
 .section-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-size: 16px;
 }
 
 .section-btn:hover,
@@ -215,6 +232,7 @@ body {
 .list {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+  font-size: 14px;
 }
 
 .list .list-h {
@@ -227,6 +245,7 @@ body {
 
 .work {
   background-color: var(--primary-bg-color);
+  font-size: 16px;
 }
 
 .work .work-h {
@@ -250,3 +269,19 @@ body {
 }
 
 /* Конец оформление section4 */
+
+/* Оформление footer */
+
+.logos {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 26px;
+}
+
+.logos .logos-span {
+  color: var(--accent-color);
+  font-size: 26px;
+}
+
+/* Конец оформление index.html */
