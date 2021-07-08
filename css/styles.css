@@ -1,0 +1,252 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --logo-bg-color: #ffffff;
+  --main-bg-color: #2f303a;
+  --primary-bg-color: #e5e5e5;
+  --accent-bg-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0, 6);
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  list-style: none;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+/* Оформление portfolio.html */
+/* Оформление header */
+
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.logo-span {
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.header {
+  background-color: var(--logo-bg-color);
+}
+
+.header .header-studio {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header .header-portfolio {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.header .header-contacts {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.header .header-studio:hover,
+.header .header-studio:focus {
+  color: var(--accent-color);
+}
+
+.header .header-portfolio:hover,
+.header .header-portfolio:focus {
+  color: var(--accent-color);
+}
+
+.header .header-contacts:hover,
+.header .header-contacts:focus {
+  color: var(--accent-color);
+}
+
+.ul-a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.ul-a:hover,
+.ul-a:focus {
+  color: var(--accent-color);
+}
+
+/* Конец оформления header */
+
+/* Оформление main */
+
+.hero {
+  background-color: var(--primary-bg-color);
+}
+
+.btn-all {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.btn {
+  color: var(--title-text-color);
+  background-color: var(--accent-bg-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.hero .hero-h {
+  color: var(--title-text-color);
+}
+
+/*  Конец оформления main */
+
+/* Оформление footer */
+
+.footer {
+  background-color: var(--main-bg-color);
+}
+
+.logos {
+  color: var(--primary-white-color);
+  text-decoration: none;
+}
+
+.logos:hover,
+.logos:focus {
+  color: var(--accent-color);
+}
+
+.add {
+  color: var(--primary-white-color);
+}
+
+.mail {
+  color: var(--footer-text-color);
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--accent-color);
+}
+
+.tel {
+  color: var(--footer-text-color);
+}
+
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+/* Конец оформления footer */
+/* Конец portfolio.html */
+
+/* Оформление index.html */
+/* Оформление header */
+
+.header-atelier {
+  color: var(--accent-color);
+}
+
+.header-atelier:hover,
+.header-atelier:focus {
+  color: var(--accent-color);
+}
+
+.header-nav {
+  color: var(--title-text-color);
+}
+
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--accent-color);
+}
+
+.ul-aa {
+  color: var(--accent-color);
+}
+
+.ul-aa:hover,
+.ul-aa:focus {
+  color: var(--accent-color);
+}
+/* Конец оформления header */
+
+/* Оформление main */
+/* Оформление section1 */
+
+.section {
+  background-color: var(--main-bg-color);
+}
+
+.section-h {
+  color: var(--primary-white-color);
+}
+
+.section-btn {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.section-btn:hover,
+.section-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* Конец оформление section1 */
+
+/* Оформление section2 */
+
+.list {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.list .list-h {
+  color: var(--title-text-color);
+}
+
+/* Конец оформление section2 */
+
+/* Оформление section3 */
+
+.work {
+  background-color: var(--primary-bg-color);
+}
+
+.work .work-h {
+  color: var(--title-text-color);
+}
+
+/* Конец оформление section3 */
+
+/* Оформление section4 */
+
+.team {
+  background-color: var(--accent-bg-color);
+}
+
+.team .team-h {
+  color: var(--title-text-color);
+}
+
+.team .team-p {
+  color: var(--primary-text-color);
+}
+
+/* Конец оформление section4 */
