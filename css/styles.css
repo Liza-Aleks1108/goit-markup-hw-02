@@ -33,11 +33,15 @@ body {
   text-decoration: none;
   font-family: 'Raleway';
   font-size: 26px;
+  line-height: 1.19231;
+  font-weight: 700;
 }
 
 .logo-span {
   color: var(--accent-color);
   font-size: 26px;
+  line-height: 1.19231;
+  font-weight: 700;
 }
 
 .logo:hover,
@@ -55,16 +59,22 @@ body {
 .header .header-studio {
   color: var(--title-text-color);
   text-decoration: none;
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .header .header-portfolio {
   color: var(--accent-color);
   text-decoration: none;
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .header .header-contacts {
   color: var(--title-text-color);
   text-decoration: none;
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .header .header-studio:hover,
@@ -85,11 +95,15 @@ body {
 .ul-a {
   color: var(--primary-text-color);
   text-decoration: none;
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .ul-a:hover,
 .ul-a:focus {
   color: var(--accent-color);
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 /* Конец оформления header */
@@ -101,16 +115,22 @@ body {
   font-size: 16px;
 }
 
-.btn-all {
+.hero .btn-all {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  cursor: pointer;
 }
 
-.btn {
+.hero .btn {
   color: var(--title-text-color);
   background-color: var(--accent-bg-color);
   font-size: 16px;
+  line-height: 1.625;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -122,6 +142,8 @@ body {
 .hero .hero-h {
   color: var(--title-text-color);
   font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
 }
 
 /*  Конец оформления main */
@@ -135,6 +157,9 @@ body {
 .logos {
   color: var(--primary-white-color);
   text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923;
 }
 
 .logos:hover,
@@ -144,12 +169,14 @@ body {
 
 .add {
   color: var(--primary-white-color);
-  font: size 14px;
+  font-size: 14px;
+  line-height: 1.714285714285714;
 }
 
 .mail {
   color: var(--footer-text-color);
-  font: size 14px;
+  font-size: 14px;
+  line-height: 1.714285714285714;
 }
 
 .mail:hover,
@@ -159,7 +186,8 @@ body {
 
 .tel {
   color: var(--footer-text-color);
-  font: size 14px;
+  font-size: 14px;
+  line-height: 1.714285714285714;
 }
 
 .tel:hover,
@@ -175,6 +203,8 @@ body {
 
 .header-atelier {
   color: var(--accent-color);
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .header-atelier:hover,
@@ -184,6 +214,8 @@ body {
 
 .header-nav {
   color: var(--title-text-color);
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .header-nav:hover,
@@ -193,6 +225,8 @@ body {
 
 .ul-aa {
   color: var(--accent-color);
+  line-height: 1.14286;
+  font-weight: 500;
 }
 
 .ul-aa:hover,
@@ -211,12 +245,17 @@ body {
 .section-h {
   color: var(--primary-white-color);
   font-size: 44px;
+  font-weight: 900;
+  line-height: 1.363636363636364;
 }
 
 .section-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  cursor: pointer;
 }
 
 .section-btn:hover,
@@ -233,10 +272,14 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
   font-size: 14px;
+  line-height: 1.714285714285714;
 }
 
 .list .list-h {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142857142857143;
 }
 
 /* Конец оформление section2 */
@@ -245,11 +288,13 @@ body {
 
 .work {
   background-color: var(--primary-bg-color);
-  font-size: 16px;
 }
 
 .work .work-h {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166666666666667;
 }
 
 /* Конец оформление section3 */
@@ -262,10 +307,15 @@ body {
 
 .team .team-h {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
 }
 
 .team .team-p {
   color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.1875;
 }
 
 /* Конец оформление section4 */
@@ -277,11 +327,15 @@ body {
   text-decoration: none;
   font-family: 'Raleway';
   font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192307692307692;
 }
 
 .logos .logos-span {
   color: var(--accent-color);
   font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192307692307692;
 }
 
 /* Конец оформление index.html */
