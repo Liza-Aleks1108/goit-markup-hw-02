@@ -2,6 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    font-size: 16px;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #ffffff;
@@ -21,11 +22,10 @@ address{
 
 /* Logo */
 .logo{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
@@ -65,10 +65,14 @@ address{
 
 .hero-title{
     font-size: 56px;
+    letter-spacing: 0.02em;
     line-height: 1.07;
 }
 
 .hero-button{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: currentColor;
     cursor: pointer;
@@ -85,8 +89,10 @@ address{
 .portfolio-title{
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
 }
 
 /* Formatting for h3 */
@@ -107,6 +113,10 @@ address{
 /* Footer */
 .footer{
     background-color: #2E2F42;
+}
+
+.footer-content{
+    color: #F4F4FD;
 }
 
 .team-item,
